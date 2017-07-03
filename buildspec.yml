@@ -3,8 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - sbt package
+      - sbt assembly
 
 artifacts:
   files:
-    - target/scala-2.12/scala-workshops_2.12-1.0.jar
+    - target/scala-2.12/scala-workshops-assembly-1.0.jar
