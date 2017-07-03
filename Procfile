@@ -1,1 +1,1 @@
-web: java -jar scala-workshops-assembly-1.0.jar
+web: java -jar  scala-workshops-assembly-1.0.jar
