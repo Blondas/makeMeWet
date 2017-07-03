@@ -1,4 +1,4 @@
-package reactiveStream
+package com.krisdrum.reactiveStream
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity}

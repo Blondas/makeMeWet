@@ -1,3 +1,5 @@
+package com.krisdrum
+
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
