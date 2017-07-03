@@ -12,5 +12,5 @@ object Startpoint extends App with ReactiveStream with SimpliestWebservice {
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
-  Http().bindAndHandle(route ~ reactiveStream, "localhost", 8089)
+  Http().bindAndHandle(route ~ reactiveStream, "localhost", 5000)
 }
